@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Downpour,” by Billy Collins | The New Yorker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="HW6.js"></script>
+    <style>
+        #firstLine{
+            position:fixed;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;    
+            top: 30px;
+            left: 30px;
+            z-index: 5;
+        }
+        #listBack{
+            position: fixed;
+            right: 500px;
+            top: 100px;
+            z-index: -5;
+            display:none;
+
+        }
+        #secondLine{
+            position:fixed;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;    
+            left: 350px;
+            top: 300px;
+            z-index: -3;
+            display:none;
+
+        }
+
+        #thirdLine{
+            position:fixed;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;    
+            left: 550px;
+            top: 50px;
+            z-index: 0;
+            display:none;
+
+        }
+        #shoppingList{
+            position: relative;
+            left: 500px;
+            top: 400px;
+            z-index: -5;
+            display:none;
+
+        }
+        #cornerFlick{
+            position:fixed;
+            left:400px;
+            top:590px;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: -3;
+            letter-spacing: 2px;   
+            color:grey; 
+            display:none;
+
+        }
+
+        #forthLine{
+            position:relative;
+            left:1500px;
+            bottom: 350px;
+            /* top:300px; */
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: 0;
+            letter-spacing: 2px; 
+            color:grey; 
+            display:none;
+
+        }
+
+        #fifthLine{
+            position:relative;
+            left:1500px;
+            bottom: 850px;
+            /* top:30px; */
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: 0;
+            letter-spacing: 2px; 
+            color:rgb(204, 10, 10); 
+            display:none;
+
+        }
+
+        #forgot{
+            position: relative;
+            /* right: 100px; */
+            bottom: 550px;
+            left:500px;
+
+            z-index: 0;
+            display:none;
+
+
+        }
+        #Terry{
+            position:relative;
+            left:1670px;
+            bottom: 950px;
+            /* top:30px; */
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: 2;
+            letter-spacing: 2px; 
+            background-color: rgb(123, 169, 255);
+            opacity: 0.8;
+            width:400px;
+            display:none;
+
+        }
+        #rain{
+            position:fixed;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;    
+            top: 30px;
+            left: 1000px;
+            display:none;
+
+        }
+        #final{
+            position:fixed;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 2px;    
+            top: 150px;
+            left: 1000px;
+            display:none;
+
+        }
+    </style>
+</head>
+<body>
+    <div id = firstLine>Last night we ended up on the couch<br/>
+        trying to remember<br/>
+        all of the friends who had died so far,<br/></div>
+        <div id=listBack><img src="week6.png"width ="90%"  /></div>
+    <div id=secondLine>and this morning I wrote them down<br/><br/>
+        in alphabetical order<br/><br/>
+        on the flip side of a shopping list<br/><br/>
+        you had left on the kitchen table.<br/></div>
+
+    <div id =thirdLine>So many of them had been swept away<br/><br/>
+        as if by a hand from the sky,<br/><br/>
+        it was good to recall them,<br/><br/>
+        I was thinking<br/><br/>
+        under the cold lights of a supermarket<br/><br/>
+        as I guided a cart with a wobbly wheel<br/><br/>
+        up and down the long strident aisles.<br/><br/></div>
+        <div id=shoppingList><img src="week6.2.png"width ="90%"  /></div>
+        <div id=cornerFlick>I was on the lookout for</div>
+        <div id=forthLine>and whatever else was on the list,<br/><br/>
+            which I managed to keep grocery side up,<br/><br/></div>
+            <div id=forgot><img src="week6.3.png"width ="90%"  /></div>
+
+        <div id=fifthLine>until I had passed through the electric doors,<br/><br/>
+            where I stopped to realize,<br/><br/>
+            as I turned the list over,<br/><br/>
+            that I had forgotten Terry O’Shea <br/><br/>
+            as well as the bananas and the bread.<br/><br/>
+            </div>
+
+        <div id=Terry>I felt I owed this to Terry,<br/><br/>
+            who was such a strong painter,<br/><br/>
+            for almost forgetting him<br/><br/>
+            and to all the others who had formed<br/><br/>
+            a circle around him on the screen in my head.<br/><br/></div>
+        <div id=rain>I was walking more slowly now<br/><br/>
+            in the presence of the compassion<br/><br/>
+            the dead were extending to a comrade,<br/><br/></div>
+
+        <div id=final>plus I was in no hurry to return<br/><br/>
+            to the kitchen, where I would have to tell you<br/><br/>
+            all about Terry and the bananas and the bread.<br/><br/></div>
+</body>
+</html>
